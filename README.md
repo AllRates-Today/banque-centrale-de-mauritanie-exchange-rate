@@ -4,6 +4,8 @@
 [![license](https://img.shields.io/npm/l/banque-centrale-de-mauritanie-exchange-rate.svg)](https://github.com/AllRates-Today/banque-centrale-de-mauritanie-exchange-rate/blob/main/LICENSE)
 [![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](https://www.npmjs.com/package/banque-centrale-de-mauritanie-exchange-rate)
 [![TypeScript](https://img.shields.io/badge/TypeScript-types%20included-3178C6.svg)](https://www.typescriptlang.org/)
+[![USD/MRU today](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fbcm%3Fsource%3DUSD%26target%3DMRU&query=%24.rate&label=USD%2FMRU%20published%20by%20Banque%20Centrale%20de%20Mauritanie&color=0A7E8C&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/bcm/)
+[![rate date](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fbcm%3Fsource%3DUSD%26target%3DMRU&query=%24.rate_date&label=rate%20date&color=555&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/bcm/)
 
 **Official Banque Centrale de Mauritanie (Mauritania) daily exchange rates for Node.js and TypeScript. The published central bank rates behind tax filings, customs valuations, audits, and compliant invoicing — not market estimates, but the numbers Banque Centrale de Mauritanie itself prints, every business day.**
 
@@ -32,6 +34,38 @@ console.log(r.rate_date, r.rates.length); // the central bank's latest published
 ```
 
 The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+
+## 📈 Latest published table
+
+Today's full Banque Centrale de Mauritanie table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
+
+<!-- daily-table:start -->
+Published **2026-10-08** by Banque Centrale de Mauritanie — 19 rates. Updated 2026-10-09.
+
+| Base | Quote | Type | Rate |
+| --- | --- | --- | ---: |
+| AED | MRU | reference | 10.9 |
+| CAD | MRU | reference | 28.06 |
+| CHF | MRU | reference | 48.0246 |
+| CNY | MRU | reference | 5.97 |
+| DKK | MRU | reference | 5.9881 |
+| DZD | MRU | reference | 0.3 |
+| EUR | MRU | reference | 44.75 |
+| GBP | MRU | reference | 52.83 |
+| JPY | MRU | reference | 0.25297 |
+| KWD | MRU | reference | 129.94 |
+| LYD | MRU | reference | 6.24 |
+| MAD | MRU | reference | 4.0206 |
+| NOK | MRU | reference | 4.1765 |
+| SAR | MRU | reference | 10.66 |
+| SEK | MRU | reference | 3.9932 |
+| TND | MRU | reference | 13.31 |
+| USD | MRU | reference | 40.04 |
+| XDR | MRU | reference | 54.24 |
+| XOF | MRU | reference | 0.0685 |
+
+Source: [Official rates published by BCM, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bcm/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
+<!-- daily-table:end -->
 
 ## 🔑 Get your API key
 
