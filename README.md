@@ -42,29 +42,29 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-08** by Banque Centrale de Mauritanie — 19 rates. Updated 2026-10-12.
+Published **2026-10-12** by Banque Centrale de Mauritanie — 19 rates. Updated 2026-10-13.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | MRU | reference | 10.9 |
-| CAD | MRU | reference | 28.06 |
-| CHF | MRU | reference | 48.0246 |
-| CNY | MRU | reference | 5.97 |
-| DKK | MRU | reference | 5.9881 |
+| AED | MRU | reference | 10.94 |
+| CAD | MRU | reference | 28.15 |
+| CHF | MRU | reference | 48.1968 |
+| CNY | MRU | reference | 6 |
+| DKK | MRU | reference | 6.0042 |
 | DZD | MRU | reference | 0.3 |
-| EUR | MRU | reference | 44.75 |
-| GBP | MRU | reference | 52.83 |
-| JPY | MRU | reference | 0.25297 |
-| KWD | MRU | reference | 129.94 |
-| LYD | MRU | reference | 6.24 |
-| MAD | MRU | reference | 4.0206 |
-| NOK | MRU | reference | 4.1765 |
-| SAR | MRU | reference | 10.66 |
-| SEK | MRU | reference | 3.9932 |
-| TND | MRU | reference | 13.31 |
-| USD | MRU | reference | 40.04 |
-| XDR | MRU | reference | 54.24 |
-| XOF | MRU | reference | 0.0685 |
+| EUR | MRU | reference | 44.88 |
+| GBP | MRU | reference | 53.13 |
+| JPY | MRU | reference | 0.25318 |
+| KWD | MRU | reference | 130.33 |
+| LYD | MRU | reference | 6.25 |
+| MAD | MRU | reference | 4.1413 |
+| NOK | MRU | reference | 4.1942 |
+| SAR | MRU | reference | 10.69 |
+| SEK | MRU | reference | 4.0053 |
+| TND | MRU | reference | 13.36 |
+| USD | MRU | reference | 40.16 |
+| XDR | MRU | reference | 54.29 |
+| XOF | MRU | reference | 0.06874 |
 
 Source: [Official rates published by BCM, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bcm/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
