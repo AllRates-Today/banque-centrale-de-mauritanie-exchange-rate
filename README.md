@@ -121,10 +121,10 @@ const pair = await getRate('USD', 'MRU', { apiKey: 'art_live_...' });
 {
   bank: 'bcm',
   name: 'Banque Centrale de Mauritanie',
-  rate_date: '2026-10-08',   // Banque Centrale de Mauritanie's own publication date
+  rate_date: '2026-10-13',   // Banque Centrale de Mauritanie's own publication date
   source: 'USD',
   target: 'MRU',
-  rate: 40.04,
+  rate: 40.08,
   rate_type: 'reference',
   derived: false,
   method: 'published',
@@ -149,9 +149,9 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'bcm',
   name: 'Banque Centrale de Mauritanie',
-  rate_date: '2026-10-08',
+  rate_date: '2026-10-13',
   rates: [
-    { "base": "USD", "quote": "MRU", "type": "reference", "value": 40.04 },
+    { "base": "USD", "quote": "MRU", "type": "reference", "value": 40.08 },
     // … the rest of the published table (19 currencies vs MRU)
   ],
   disclaimer: '…'
@@ -191,7 +191,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'banque-centrale-de-mauritanie-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'MRU', from: '2026-01-01', to: '2026-10-08' },
+  { source: 'USD', target: 'MRU', from: '2026-01-01', to: '2026-10-13' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -204,11 +204,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'MRU',
   from: '2026-01-01',
-  to: '2026-10-08',
+  to: '2026-10-13',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-10-08', rate: 40.04, rate_type: 'reference', derived: false, method: 'published' },
+    { date: '2026-10-13', rate: 40.08, rate_type: 'reference', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
