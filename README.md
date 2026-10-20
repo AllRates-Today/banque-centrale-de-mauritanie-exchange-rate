@@ -20,6 +20,10 @@
 
 > **Official rate, not mid-market:** every value here is a number Banque Centrale de Mauritanie itself published, fixed once printed and carrying the central bank's own `rate_date` — what filings and audits require. Need the live mid-market rate for pricing or display instead? Use the [mid-market API](https://allratestoday.com/docs/) or [`@allratestoday/sdk`](https://www.npmjs.com/package/@allratestoday/sdk). The two can diverge by several percent.
 
+## 🔑 Get your API key
+
+Get a free API key at [allratestoday.com/register](https://allratestoday.com/register) — no credit card required. Latest rates are on every plan, including free.
+
 ## ⚡ Try it without a key
 
 The latest Banque Centrale de Mauritanie table is also served keyless, CORS-open and edge-cached, for evaluation, embeds and AI agents:
@@ -43,38 +47,34 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-15 by Banque Centrale de Mauritanie — 19 rates. Updated 2026-10-19.</summary>
+<summary>Table as text: published 2026-10-19 by Banque Centrale de Mauritanie — 19 rates. Updated 2026-10-20.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | MRU | reference | 10.91 |
-| CAD | MRU | reference | 28.22 |
-| CHF | MRU | reference | 48.2802 |
-| CNY | MRU | reference | 5.99 |
-| DKK | MRU | reference | 6.0116 |
+| AED | MRU | reference | 10.92 |
+| CAD | MRU | reference | 28.48 |
+| CHF | MRU | reference | 48.6096 |
+| CNY | MRU | reference | 6 |
+| DKK | MRU | reference | 6.0221 |
 | DZD | MRU | reference | 0.3 |
-| EUR | MRU | reference | 44.94 |
-| GBP | MRU | reference | 53.11 |
-| JPY | MRU | reference | 0.25383 |
-| KWD | MRU | reference | 130 |
+| EUR | MRU | reference | 45.01 |
+| GBP | MRU | reference | 53.48 |
+| JPY | MRU | reference | 0.25356 |
+| KWD | MRU | reference | 130.19 |
 | LYD | MRU | reference | 6.24 |
-| MAD | MRU | reference | 4.087 |
-| NOK | MRU | reference | 4.2148 |
-| SAR | MRU | reference | 10.67 |
-| SEK | MRU | reference | 4.0207 |
-| TND | MRU | reference | 13.36 |
-| USD | MRU | reference | 40.06 |
-| XDR | MRU | reference | 54.19 |
-| XOF | MRU | reference | 0.06845 |
+| MAD | MRU | reference | 4.0974 |
+| NOK | MRU | reference | 4.2649 |
+| SAR | MRU | reference | 10.69 |
+| SEK | MRU | reference | 4.0525 |
+| TND | MRU | reference | 13.38 |
+| USD | MRU | reference | 40.1 |
+| XDR | MRU | reference | 54.3 |
+| XOF | MRU | reference | 0.06858 |
 
 </details>
 
 Source: [Official rates published by BCM, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bcm/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
-
-## 🔑 Get your API key
-
-Get a free API key at [allratestoday.com/register](https://allratestoday.com/register) — no credit card required. Latest rates are on every plan, including free.
 
 ## 📦 Installation
 
