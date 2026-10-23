@@ -47,29 +47,29 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-21 by Banque Centrale de Mauritanie — 19 rates. Updated 2026-10-22.</summary>
+<summary>Table as text: published 2026-10-22 by Banque Centrale de Mauritanie — 19 rates. Updated 2026-10-23.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
 | AED | MRU | reference | 10.91 |
 | CAD | MRU | reference | 28.54 |
-| CHF | MRU | reference | 48.5977 |
+| CHF | MRU | reference | 48.782 |
 | CNY | MRU | reference | 6 |
-| DKK | MRU | reference | 6.0212 |
+| DKK | MRU | reference | 6.0053 |
 | DZD | MRU | reference | 0.3 |
-| EUR | MRU | reference | 45.01 |
-| GBP | MRU | reference | 53.67 |
-| JPY | MRU | reference | 0.25371 |
-| KWD | MRU | reference | 130.13 |
+| EUR | MRU | reference | 44.89 |
+| GBP | MRU | reference | 53.56 |
+| JPY | MRU | reference | 0.25555 |
+| KWD | MRU | reference | 130.1 |
 | LYD | MRU | reference | 6.25 |
-| MAD | MRU | reference | 4.1033 |
-| NOK | MRU | reference | 4.2804 |
+| MAD | MRU | reference | 4.0835 |
+| NOK | MRU | reference | 4.2738 |
 | SAR | MRU | reference | 10.68 |
-| SEK | MRU | reference | 4.0513 |
-| TND | MRU | reference | 13.38 |
-| USD | MRU | reference | 40.08 |
-| XDR | MRU | reference | 54.3 |
-| XOF | MRU | reference | 0.06863 |
+| SEK | MRU | reference | 4.0364 |
+| TND | MRU | reference | 13.36 |
+| USD | MRU | reference | 40.07 |
+| XDR | MRU | reference | 54.28 |
+| XOF | MRU | reference | 0.06855 |
 
 </details>
 
