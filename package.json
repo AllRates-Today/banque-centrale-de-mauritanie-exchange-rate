@@ -1,6 +1,6 @@
 {
   "name": "banque-centrale-de-mauritanie-exchange-rate",
-  "version": "1.3.18",
+  "version": "1.3.19",
   "description": "Official Banque Centrale de Mauritanie (Mauritania) daily exchange rates — 19 currencies vs MRU, history since 2023. Zero-dependency Node.js/TypeScript client.",
   "keywords": [
     "bcm",
@@ -28,7 +28,17 @@
     "official-rates",
     "mauritania",
     "api",
-    "typescript"
+    "typescript",
+    "money",
+    "convert",
+    "conversion",
+    "exchange",
+    "rate",
+    "accounting",
+    "utilities",
+    "number",
+    "cart",
+    "ecommerce"
   ],
   "homepage": "https://allratestoday.com/central-bank-rates-api/bcm/",
   "repository": {
