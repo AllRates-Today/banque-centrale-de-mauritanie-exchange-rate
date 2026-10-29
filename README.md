@@ -47,29 +47,29 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-27 by Banque Centrale de Mauritanie — 19 rates. Updated 2026-10-28.</summary>
+<summary>Table as text: published 2026-10-28 by Banque Centrale de Mauritanie — 19 rates. Updated 2026-10-29.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | MRU | reference | 10.93 |
-| CAD | MRU | reference | 28.64 |
-| CHF | MRU | reference | 48.4552 |
-| CNY | MRU | reference | 6.02 |
-| DKK | MRU | reference | 5.9887 |
+| AED | MRU | reference | 11 |
+| CAD | MRU | reference | 28.77 |
+| CHF | MRU | reference | 48.6791 |
+| CNY | MRU | reference | 6.06 |
+| DKK | MRU | reference | 6.0151 |
 | DZD | MRU | reference | 0.3 |
-| EUR | MRU | reference | 44.76 |
-| GBP | MRU | reference | 53.49 |
-| JPY | MRU | reference | 0.25464 |
-| KWD | MRU | reference | 130.29 |
-| LYD | MRU | reference | 6.26 |
-| MAD | MRU | reference | 4.0725 |
-| NOK | MRU | reference | 4.3068 |
-| SAR | MRU | reference | 10.7 |
-| SEK | MRU | reference | 4.0353 |
-| TND | MRU | reference | 13.32 |
-| USD | MRU | reference | 40.15 |
-| XDR | MRU | reference | 54.42 |
-| XOF | MRU | reference | 0.06852 |
+| EUR | MRU | reference | 44.96 |
+| GBP | MRU | reference | 53.67 |
+| JPY | MRU | reference | 0.25591 |
+| KWD | MRU | reference | 131.05 |
+| LYD | MRU | reference | 6.29 |
+| MAD | MRU | reference | 4.1004 |
+| NOK | MRU | reference | 4.3425 |
+| SAR | MRU | reference | 10.77 |
+| SEK | MRU | reference | 4.0657 |
+| TND | MRU | reference | 13.39 |
+| USD | MRU | reference | 40.41 |
+| XDR | MRU | reference | 54.75 |
+| XOF | MRU | reference | 0.06905 |
 
 </details>
 
@@ -234,6 +234,7 @@ The Banque Centrale de Mauritanie publishes a daily reference rate for the ougui
 
 - Publisher's own page: [Cours de change de référence](https://www.bcm.mr/) · [www.bcm.mr](https://www.bcm.mr)
 - Publication: every business day; the exact schedule, freshness status and any current delay are on the [Banque Centrale de Mauritanie rates page](https://allratestoday.com/central-bank-rates-api/bcm/)
+- In the API: usually by **00:15 UTC** (measured over the last 8 publications). Schedule a sync at or after that time and retry hourly until `rate_date` moves; every response carries the same figure as `available_by_utc` — see [when to poll](https://allratestoday.com/docs/#when-to-poll)
 - Values are stored unmodified, with the publisher's own `rate_date` on every row — see the [methodology](https://allratestoday.com/official-rates-methodology/)
 
 ## 🧭 Reading the numbers
