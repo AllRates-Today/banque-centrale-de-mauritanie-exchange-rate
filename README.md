@@ -322,6 +322,7 @@ Need the whole archive rather than an API call? The same published tables are mi
 
 ## 🔗 Links
 
+- **Website:** [allratestoday.com](https://allratestoday.com)
 - [Banque Centrale de Mauritanie rates page](https://allratestoday.com/central-bank-rates-api/bcm/) — live table, publication cadence, FAQ
 - [All central bank sources](https://allratestoday.com/central-bank-rates-api/)
 - [Package docs on the site](https://allratestoday.com/docs/sdk/banque-centrale-de-mauritanie-exchange-rate/) · [ERP integration guides](https://allratestoday.com/docs/integrations/)
